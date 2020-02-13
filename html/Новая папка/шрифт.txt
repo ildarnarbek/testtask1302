@@ -1,0 +1,6 @@
+Open Sans
+
+regular
+light
+bold
+semibold.
