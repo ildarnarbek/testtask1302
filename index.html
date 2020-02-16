@@ -21,18 +21,22 @@
           <div class="title">DONGFENG MOTOR CORPORATION</div>
           <div class="title--red">DONGFENG MOTOR RUS</div>
         </div>
+        <div class="contacts">
+          <div class="social-media">
+          <div class="social-media__item">В</div>
+          <div class="social-media__item">f</div>
+        </div>
         <div class="contact">
-          <div class="contact__social-media">В</div>
-          <div class="contact__social-media">f</div>
           <div class="contact__item">Контакты</div>
           <div class="contact__item">Обратная связь</div>
         </div>
+        </div>
       </div>
-      <div class="menu-container">
-        <nav class="menu">
-          <ul>
-            <li class="menu__item">О компании</li>
-            <li class="menu__item">Модельный ряд</li>
+      <div class="nav-container">
+        <nav class="menu-container">
+          <ul class="menu">
+            <li class="menu__item ">О компании</li>
+            <li class="menu__item menu__item-select">Модельный ряд</li>
             <li class="menu__item">Конфигуратор</li>
             <li class="menu__item">Сервис</li>
             <li class="menu__item">Финансирование</li>
@@ -45,13 +49,20 @@
     <main>
       <section>
         <div class="slider-container">
-          <div class="slider-container__slide">
+          <div class="slider-container__slide slider-container__slide--show">
             <img src="src/auto-large.png" alt="" />
           </div>
-          <div class="slider-container__slide"></div>
+          <div class="slider-container__slide">
+            <img src="src/auto-large1.png" alt="" />
+          </div>
           <div class="slider__underline"></div>
           <div class="slider-continer__additional-info">
-            <div class="slider__arrow"></div>
+            
+            <div class="slider__arrow-container">
+              <div class="slider__arrow slider__arrow--right slider__arrow--show"><img src="src/arrow-right.png" alt=""></div>
+              <div class="slider__arrow slider__arrow--left"><img src="src/arrow-left.png" alt=""></div>
+            </div>
+            <div class="additional-info">
             <div class="additional-info__title">DongFengH30 Cross</div>
             <ul>
               <li class="additional-info__parameter">
@@ -61,8 +72,12 @@
               <li class="additional-info__parameter">Привод: передний</li>
               <li class="additional-info__parameter">Мощность: 106 л.с.</li>
             </ul>
-            <div class="slider__points slider__points--active "></div>
-            <div class="slider__points"></div>
+          </div>
+            <div class="additional-info__logo"></div>
+            <div class="points-container">
+            <div class="points-container__points points-container__points--active "></div>
+            <div class="points-container__points"></div>
+          </div>
           </div>
         </div>
         <div class="content">
@@ -118,7 +133,7 @@
                 Zhu Fushou went to Zhu Fushou went to Dongfeng Yulon used cars
                 ...
               </div>
-              <div class="news__details">подробнее</div>
+              <div class="news__details"><a href="#" class="news__details--link">подробнее</a></div>
             </div>
             <div class="news">
               <div class="news___date">2013.11.22.</div>
@@ -128,31 +143,38 @@
                 Zhu Fushou went to Zhu Fushou went to Dongfeng Yulon used cars
                 ...
               </div>
-              <div class="news__details">подробнее</div>
+              <div class="news__details"><a href="#" class="news__details--link">подробнее</a></div>
             </div>
             <div class="news">
               <div class="news___date">2013.11.22.</div>
               <div class="news__title">Тестирование автомобилей.</div>
               <div class="news__text">
                 Zhu Fushou went to Dongfeng Yulon used cars Co.,Ltd for research
-                Zhu Fushou went to Zhu Fushou went to Dongfeng Yulon used cars
+                Zhu Fushou went to Dongfeng Yulon went Zhu Fushou to Dongfeng Yulon used cars
                 ...
               </div>
-              <div class="news__details">подробнее</div>
-              <div class="news__details">все новости</div>
+              <div class="news__details"><a href="#" class="news__details--link">подробнее</a></div>
+              <div class="news__details"><a href="#" class="news__details--link news__details--link-all">все новости</a></div>
             </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="copytight">©2003-2009 dfmc.com.cn All rights reserved.</div>
-      <div class="copytight">Разработка сайта — SUPPORTix</div>
+      <div class="footer-container">
       <div class="site-map">
+        <div class="site-map__container">
         <div class="site-map__item">Контакты</div>
         <div class="site-map__item">Карта сайта</div>
         <div class="site-map__item">Правовая информация</div>
       </div>
+      </div>
+      <div class="copytight-container">
+      <div class="copytight--text">©2003-2009 dfmc.com.cn All rights reserved.</div>
+      <div class="copytight--text">Разработка сайта — SUPPORT <span class="copytight--red-text">ix</span></div>
+    </div>
+  </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
