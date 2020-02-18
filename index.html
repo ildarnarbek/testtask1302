@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
@@ -23,25 +24,52 @@
         </div>
         <div class="contacts">
           <div class="social-media">
-          <div class="social-media__item">В</div>
-          <div class="social-media__item">f</div>
-        </div>
-        <div class="contact">
-          <div class="contact__item">Контакты</div>
-          <div class="contact__item">Обратная связь</div>
-        </div>
+            <div class="social-media__item">
+              <a href="#" class="links links--white">В</a>
+            </div>
+            <div class="social-media__item">
+              <a href="#" class="links links--white">f</a>
+            </div>
+          </div>
+          <div class="contact">
+            <div class="contact__item">
+              <a href="#" class="links links--grey links--font-size-14 "
+                >Контакты</a
+              >
+            </div>
+            <div class="contact__item">|</div>
+            <div class="contact__item">
+              <a href="#" class="links links--grey links--font-size-14 "
+                >Обратная связь</a
+              >
+            </div>
+          </div>
         </div>
       </div>
       <div class="nav-container">
         <nav class="menu-container">
           <ul class="menu">
-            <li class="menu__item ">О компании</li>
-            <li class="menu__item menu__item-select">Модельный ряд</li>
-            <li class="menu__item">Конфигуратор</li>
-            <li class="menu__item">Сервис</li>
-            <li class="menu__item">Финансирование</li>
-            <li class="menu__item">Дилеры</li>
-            <li class="menu__item">Новости</li>
+            <li class="menu__item ">
+              <a href="#" class="links links--light-grey">О компании</a>
+            </li>
+            <li class="menu__item menu__item-select">
+              <a href="#" class="links links--light-grey">Модельный ряд</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="links links--light-grey">Конфигуратор</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="links links--light-grey">Сервис</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="links links--light-grey">Финансирование</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="links links--light-grey">Дилеры</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="links links--light-grey">Новости</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -55,29 +83,46 @@
           <div class="slider-container__slide">
             <img src="src/auto-large1.png" alt="" />
           </div>
+          <div class="slider-container__slide">
+            <img src="src/auto-large2.png" alt="" />
+          </div>
+          <div class="slider-container__slide">
+            <img src="src/auto-large3.png" alt="" />
+          </div>
           <div class="slider__underline"></div>
           <div class="slider-continer__additional-info">
-            
             <div class="slider__arrow-container">
-              <div class="slider__arrow slider__arrow--right slider__arrow--show"><img src="src/arrow-right.png" alt=""></div>
-              <div class="slider__arrow slider__arrow--left"><img src="src/arrow-left.png" alt=""></div>
+              <div
+                class="slider__arrow slider__arrow--right slider__arrow--show"
+              >
+                <img src="src/arrow-right.png" alt="" />
+              </div>
+              <div class="slider__arrow slider__arrow--left">
+                <img src="src/arrow-left.png" alt="" />
+              </div>
             </div>
             <div class="additional-info">
-            <div class="additional-info__title">DongFengH30 Cross</div>
-            <ul>
-              <li class="additional-info__parameter">
-                Модификация 1,6 AT / MT
-              </li>
-              <li class="additional-info__parameter">Тип двигателя: бензин</li>
-              <li class="additional-info__parameter">Привод: передний</li>
-              <li class="additional-info__parameter">Мощность: 106 л.с.</li>
-            </ul>
-          </div>
+              <div class="additional-info__title">DongFengH30 Cross</div>
+              <ul>
+                <li class="additional-info__parameter">
+                  Модификация 1,6 AT / MT
+                </li>
+                <li class="additional-info__parameter">
+                  Тип двигателя: бензин
+                </li>
+                <li class="additional-info__parameter">Привод: передний</li>
+                <li class="additional-info__parameter">Мощность: 106 л.с.</li>
+              </ul>
+            </div>
             <div class="additional-info__logo"></div>
             <div class="points-container">
-            <div class="points-container__points points-container__points--active "></div>
-            <div class="points-container__points"></div>
-          </div>
+              <div
+                class="points-container__points points-container__points--active "
+              ></div>
+              <div class="points-container__points"></div>
+              <div class="points-container__points"></div>
+              <div class="points-container__points"></div>
+            </div>
           </div>
         </div>
         <div class="content">
@@ -124,7 +169,7 @@
             </div>
           </div>
           <div class="news-block">
-            <div class="subtitle">НОВОСТИ</div>
+            <div class="subtitle--news">НОВОСТИ</div>
             <div class="news">
               <div class="news___date">2013.11.22.</div>
               <div class="news__title">Тестирование автомобилей.</div>
@@ -133,7 +178,9 @@
                 Zhu Fushou went to Zhu Fushou went to Dongfeng Yulon used cars
                 ...
               </div>
-              <div class="news__details"><a href="#" class="news__details--link">подробнее</a></div>
+              <div class="news__details">
+                <a href="#" class="news__details--link">подробнее</a>
+              </div>
             </div>
             <div class="news">
               <div class="news___date">2013.11.22.</div>
@@ -143,18 +190,26 @@
                 Zhu Fushou went to Zhu Fushou went to Dongfeng Yulon used cars
                 ...
               </div>
-              <div class="news__details"><a href="#" class="news__details--link">подробнее</a></div>
+              <div class="news__details">
+                <a href="#" class="news__details--link">подробнее</a>
+              </div>
             </div>
             <div class="news">
               <div class="news___date">2013.11.22.</div>
               <div class="news__title">Тестирование автомобилей.</div>
               <div class="news__text">
                 Zhu Fushou went to Dongfeng Yulon used cars Co.,Ltd for research
-                Zhu Fushou went to Dongfeng Yulon went Zhu Fushou to Dongfeng Yulon used cars
-                ...
+                Zhu Fushou went to Dongfeng Yulon went Zhu Fushou to Dongfeng
+                Yulon used cars ...
               </div>
-              <div class="news__details"><a href="#" class="news__details--link">подробнее</a></div>
-              <div class="news__details"><a href="#" class="news__details--link news__details--link-all">все новости</a></div>
+              <div class="news__details">
+                <a href="#" class="news__details--link">подробнее</a>
+              </div>
+              <div class="news__details">
+                <a href="#" class="news__details--link news__details--link-all"
+                  >все новости</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -162,18 +217,31 @@
     </main>
     <footer class="footer">
       <div class="footer-container">
-      <div class="site-map">
-        <div class="site-map__container">
-        <div class="site-map__item">Контакты</div>
-        <div class="site-map__item">Карта сайта</div>
-        <div class="site-map__item">Правовая информация</div>
+        <div class="site-map">
+          <div class="site-map__container">
+            <div class="site-map__item">
+              <a href="#" class="links links--white ">Контакты</a>
+            </div>
+            <div class="site-map__item">
+              <a href="#" class="links links--white ">Карта сайта</a>
+            </div>
+            <div class="site-map__item">
+              <a href="#" class="links links--white ">Правовая информация</a>
+            </div>
+          </div>
+        </div>
+        <div class="copytight-container">
+          <div class="copytight--text">
+            ©2003-2009 dfmc.com.cn All rights reserved.
+          </div>
+          <div class="copytight--text">
+            <a href="#" class="links links--white "
+              >Разработка сайта — SUPPORT
+              <span class="copytight--red-text">ix</span></a
+            >
+          </div>
+        </div>
       </div>
-      </div>
-      <div class="copytight-container">
-      <div class="copytight--text">©2003-2009 dfmc.com.cn All rights reserved.</div>
-      <div class="copytight--text">Разработка сайта — SUPPORT <span class="copytight--red-text">ix</span></div>
-    </div>
-  </div>
     </footer>
     <script src="script.js"></script>
   </body>
